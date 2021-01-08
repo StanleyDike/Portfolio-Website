@@ -18,7 +18,7 @@
     <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
     <!-- Put here your site title -->
-    <title>Stanley Dike Jr. | Developer</title>
+    <title>Stanley Dike | Developer</title>
     <!-- Add some coding keywords below, Ex: (javascript, yourusername, etc) -->
     <meta name="keywords" content="[username], [name], skill" />
     <!-- Improve your SEO by adding a small descrption of you -->
@@ -31,7 +31,7 @@
     />
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
-      ScrollReveal({ reset: false });
+      ScrollReveal({ reset: false })
     </script>
 
     <!-- Remove this script once you setup your custom portfolio -->
@@ -46,9 +46,9 @@
     <div id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title" class="load-hidden">
-          Hi, my name is <span class="text-color-main">Stanley Dike Jr.</span>
+          Hi, my name is <span class="text-color-main">Stanley Dike</span>
           <br />
-          Aspiring Full Stack Web Developer.
+          Full Stack Web Developer.
         </h1>
         <p class="hero-cta" class="load-hidden">
           <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
@@ -60,9 +60,7 @@
     <!-- **** About Section **** -->
     <section id="about">
       <div class="container">
-        <h2 class="section-title">
-          About me
-        </h2>
+        <h2 class="section-title">About me</h2>
         <div class="row about-wrapper">
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__image">
@@ -78,10 +76,17 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info">
               <p class="about-wrapper__info-text">
-                I am an aspiring full stack web developer who is passionate about learning everyday to grow professionally in the IT field.
+                I am a full stack web developer who has a passion to learn
+                everyday and grow professionally in the IT field. Currently
+                learning PHP and Laravel while doing Shopify app and theme
+                development on the side.
               </p>
               <span class="d-flex mt-3">
-                <a target="_blank" class="cta-btn cta-btn--resume" href="https://docs.google.com/document/d/1UCnkRv3mYPnuF9PBiAlIllIkon1-OSsgtPqQc_4BNwU/edit?usp=sharing">
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="https://docs.google.com/document/d/1UCnkRv3mYPnuF9PBiAlIllIkon1-OSsgtPqQc_4BNwU/edit?usp=sharing"
+                >
                   View Resume
                 </a>
               </span>
@@ -96,30 +101,39 @@
     <section id="projects">
       <div class="container">
         <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">
-            Projects
-          </h2>
+          <h2 class="section-title dark-blue-text">Projects</h2>
 
           <!-- Each .row is a project -->
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Shopping Cart RESTful API</h3>
+                <h3 class="project-wrapper__text-title">Namazon</h3>
                 <div>
                   <p class="mb-4">
-                    RESTful API that allows customers to Create, Read, Update, and Delete (CRUD) from their shopping cart. Used MongoDB to persist the data and also implemented sessions to find the last (x) store items that a user has looked at. Tools used Node, Express, and MongoDB.
+                    eCommerce platform built with the MERN stack & Redux.
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/StanleyDike/Shopping-Cart-RESTful-API">
+                <a
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://namazonapp.herokuapp.com/"
+                >
+                  See Live
+                </a>
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/StanleyDike/Namazon"
+                >
                   Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="https://github.com/StanleyDike/Shopping-Cart-RESTful-API" target="_blank">
+                <a href="https://namazonapp.herokuapp.com/" target="_blank">
                   <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/shoppingCartImg.jpg" />
+                    <img class="img-fluid" src="./assets/namazonhome.jpg" />
                   </div>
                 </a>
               </div>
@@ -134,20 +148,29 @@
                 <h3 class="project-wrapper__text-title">Sentiment Analysis</h3>
                 <div>
                   <p class="mb-4">
-                    Java program that classifies a set of movie reviews as positive or negative by counting the number of positive and negative words that appear in that review.
+                    Java program that classifies a set of movie reviews as
+                    positive or negative by counting the number of positive and
+                    negative words that appear in that review.
                   </p>
                 </div>
                 <!-- <a target="_blank" class="cta-btn cta-btn--hero" href="#!">
                   See Live
                 </a> -->
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/StanleyDike/Sentiment-Analysis">
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/StanleyDike/Sentiment-Analysis"
+                >
                   Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="https://github.com/StanleyDike/Sentiment-Analysis" target="_blank">
+                <a
+                  href="https://github.com/StanleyDike/Sentiment-Analysis"
+                  target="_blank"
+                >
                   <div data-tilt class="thumbnail rounded">
                     <img class="img-fluid" src="./assets/logo.png" />
                   </div>
@@ -164,17 +187,26 @@
                 <h3 class="project-wrapper__text-title">Calculator GUI</h3>
                 <div>
                   <p class="mb-4">
-                    Calculator with add, subtract, divide, multiply, 1/x, x^2, and sqrt(x) functionalities. Implementued using Java Swing framework.
+                    Calculator with add, subtract, divide, multiply, 1/x, x^2,
+                    and sqrt(x) functionalities. Implementued using Java Swing
+                    framework.
                   </p>
                 </div>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/StanleyDike/Calculator-GUI">
+                <a
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/StanleyDike/Calculator-GUI"
+                >
                   Source Code
                 </a>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image">
-                <a href="https://github.com/StanleyDike/Calculator-GUI" target="_blank">
+                <a
+                  href="https://github.com/StanleyDike/Calculator-GUI"
+                  target="_blank"
+                >
                   <div data-tilt class="thumbnail rounded">
                     <img class="img-fluid" src="./assets/logo3.png" />
                   </div>
@@ -183,72 +215,6 @@
             </div>
           </div>
           <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Robo Friends</h3>
-                <div>
-                  <p class="mb-4">
-                    Web app made with create-react-app that allows you to search for robots.
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://stanleydike.github.io/Robo-Friends/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/StanleyDike/Robo-Friends">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://stanleydike.github.io/Robo-Friends/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/rf.jpg" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          <!-- Each .row is a project -->
-          <div class="row">
-            <div class="col-lg-4 col-sm-12">
-              <div class="project-wrapper__text">
-                <h3 class="project-wrapper__text-title">Background Generator</h3>
-                <div>
-                  <p class="mb-4">
-                    Allows you to change the linear background of the website. 
-                  </p>
-                </div>
-                <a target="_blank" class="cta-btn cta-btn--hero" href="https://stanleydike.github.io/Background-Generator/">
-                  See Live
-                </a>
-                <a target="_blank" class="cta-btn text-color-main" href="https://github.com/StanleyDike/Background-Generator">
-                  Source Code
-                </a>
-              </div>
-            </div>
-            <div class="col-lg-8 col-sm-12">
-              <div class="project-wrapper__image">
-                <a href="https://stanleydike.github.io/Background-Generator/" target="_blank">
-                  <div data-tilt class="thumbnail rounded">
-                    <img class="img-fluid" src="./assets/l4.png" />
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <!-- /END Project -->
-
-          
-        </div>
-      </div>
-    </section>
-    <!-- /END Projects Section -->
 
     <!-- **** Contact Section **** -->
     <section id="contact">
@@ -278,8 +244,10 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-        
-          <a href="https://www.linkedin.com/in/stanley-dike-jr-a380b7197/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/stanleydike/"
+            target="_blank"
+          >
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
           <a href="https://github.com/StanleyDike" target="_blank">
@@ -288,7 +256,6 @@
         </div>
 
         <hr />
-
       </div>
     </footer>
     <!-- /END Footer Section -->
